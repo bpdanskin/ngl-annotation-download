@@ -1,0 +1,13 @@
+.venv
+.claude
+
+# Local, personal CAVE/middleauth token lives only in the browser (localStorage).
+# Never commit a personal token. If you create a local override, keep it out of git:
+config.local.js
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
